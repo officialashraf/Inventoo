@@ -7,7 +7,7 @@ const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 const path = require("path");
 const cors = require("cors");
-const CLIENT_APP_PATH = '../frontend/src/app.js';
+const CLIENT_APP_PATH = '../frontend/src/index.js';
 // config file coneection
 dotenv.config({path:"Backend/config/config.env"});
 
