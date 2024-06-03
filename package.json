@@ -1,12 +1,12 @@
 {
   "name": "inventoo",
   "version": "1.0.0",
-  "description": "",
+  "description": "thi is INventoo",
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",
