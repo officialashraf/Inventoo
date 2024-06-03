@@ -1,0 +1,23 @@
+.overflow-hidden{
+    padding-top: 30px;
+    padding-left: 0%;
+}
+
+/* payment footer */
+.techname{
+   color: black;
+}
+.shipping{
+  width: 60x;
+  height: 20px;
+  margin-left: 20px;
+}
+.shipping1{
+  width: 60px;
+  height: 60px;
+  
+}
+.stripe{
+width: 60px;
+height: 25px;
+}

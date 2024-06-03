@@ -1,0 +1,74 @@
+
+.container3{
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+  
+  .latestproductCart {
+    width: 32%;
+    display: flex;
+    margin: 0vmax;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 0.2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0vmax;
+  }
+  
+  .latestproductCart > img {
+    width: 100%;
+    height: 18vmax;
+  }
+  
+  
+ 
+  
+  .latestproductCart > p {
+    font-family: "Roboto";
+    font-size: 2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  .latestproductCart:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  
+    transform: translateY(-1vmax);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .latestproductCart > p {
+      font-size: 1.7vmax;
+    }
+    .latestproductCart:hover {
+      box-shadow: 5px 5px  rgba(15, 15, 15, 0.26);
+      cursor: pointer;
+      transform: translateY(-1vmax);
+    }
+    .latestproductCart {
+      width: 100%;
+      display: flex;
+      margin: 0vmax;
+      flex-direction: column;
+      text-decoration: none;
+      color: rgb(48, 48, 48);
+      margin: 2vmax;
+      transition: all 0.5s;
+      padding-bottom: 0vmax;
+    }
+    
+  
+    .latestproductCart > div {
+      margin: 0vmax;
+      display: block;
+    }
+  
+
+  }

@@ -1,0 +1,34 @@
+
+ .iconlogin .search,
+ .iconlogin .user,
+ .iconlogin .cart {
+   width: 25px;
+   height: 25px;
+ }
+ .iconlogin {
+    display: flex;
+    justify-content: flex-start; /* Align icons to the start of the container (change to flex-end or center if needed) */
+    list-style: none; /* Remove list styles if using ul/li */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+ 
+ @media only screen and (max-width: 600px) {
+ /* #page-header { text-align: center; } */
+ .iconlogin {
+    padding-left: 5rem;
+  }
+
+  .iconlogin .search,
+  .iconlogin .user,
+  .iconlogin .cart {
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+
+#nav-search{
+    margin-right: 15vmax;
+}
