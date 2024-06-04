@@ -23,12 +23,12 @@ const UserOption = ({user}) => {
       {icon:<ExitToApp/>, name:"Logout", func : exitfunc}
     ]
    
-    if(user.role ==="admin"){
-      Options.unshift({icon:<Dashboard/>, name:"Dashboard", func : dashboard})
-    }
-    function dashboard(){
-     navigate("/admin/dashboard");
-    }
+    // if(user.role ==="admin"){
+    //   Options.unshift({icon:<Dashboard/>, name:"Dashboard", func : dashboard})
+    // }
+    // function dashboard(){
+    //  navigate("/admin/dashboard");
+    // }
 
     function cart(){
       navigate("/cart");
